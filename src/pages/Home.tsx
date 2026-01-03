@@ -158,9 +158,9 @@ export default function Home() {
             <StatCard value="100%" label="Satisfaction" />
           </div>
 
-          <div className="mt-[48px] flex flex-wrap gap-[75px] justify-center">
+          <div className="mt-[48px] flex flex-wrap gap-[24px] lg:gap-[75px] justify-center">
             <FeatureCard
-              icon={<Users size={24} className="text-accent-yellow" strokeWidth={2.67} />}
+              icon={<Award size={24} className="text-accent-yellow" strokeWidth={2.67} />}
               title="Expert Team"
               description="Certified Chartered Accountants with 15+ years of industry experience."
             />
@@ -180,12 +180,12 @@ export default function Home() {
               description="Premium services at competitive prices tailored to your budget."
             />
             <FeatureCard
-              icon={<HeartHandshake size={24} className="text-accent-yellow" strokeWidth={2.67} />}
+              icon={<Users size={24} className="text-accent-yellow" strokeWidth={2.67} />}
               title="5000+ Clients"
               description="Trusted by thousands of businesses across India."
             />
             <FeatureCard
-              icon={<Target size={24} className="text-accent-yellow" strokeWidth={2.67} />}
+              icon={<HeartHandshake size={24} className="text-accent-yellow" strokeWidth={2.67} />}
               title="Dedicated Support"
               description="Personal account manager for all your queries and concerns."
             />
