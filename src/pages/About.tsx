@@ -145,7 +145,7 @@ export default function About() {
 
           <div className="relative max-w-[800px] mx-auto">
             {/* Vertical Line */}
-            <div className="absolute left-[29px] md:left-1/2 top-0 bottom-0 w-[2px] bg-neutral-200 md:-translate-x-1/2" />
+            <div className="absolute left-[32px] top-0 bottom-0 w-[2px] bg-neutral-200" />
 
             <div className="space-y-12">
               {[
@@ -155,25 +155,21 @@ export default function About() {
                 { year: '2020', title: 'Digital Transformation', desc: 'Launched online consultation and filing services.' },
                 { year: '2024', title: '5000+ Clients', desc: 'Trusted by businesses across India.' },
               ].map((item, index) => (
-                <div key={index} className={`relative flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-0 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
+                <div key={index} className="relative flex items-center gap-10">
+                  {/* Dot */}
+                  <div className="w-16 h-16 bg-[#FEF7EC] rounded-full flex items-center justify-center z-10 shrink-0 border-4 border-white">
+                    <span className="font-inter font-bold text-sm text-accent-yellow">{item.year}</span>
+                  </div>
 
                   {/* Content */}
-                  <div className={`w-full md:w-[50%] pl-20 md:pl-0 ${index % 2 === 0 ? 'md:pr-16 md:text-right' : 'md:pl-16 md:text-left'}`}>
-                    <h3 className="font-inter font-semibold text-xl text-neutral-900 mb-2">
+                  <div className="flex-1">
+                    <h3 className="font-inter font-bold text-xl text-neutral-900 mb-1">
                       {item.title}
                     </h3>
                     <p className="font-inter font-normal text-sm text-neutral-500">
                       {item.desc}
                     </p>
                   </div>
-
-                  {/* Dot */}
-                  <div className="absolute left-0 md:left-1/2 md:-translate-x-1/2 w-16 h-16 bg-[rgba(245,159,10,0.1)] border-4 border-white rounded-full flex items-center justify-center z-10 shrink-0">
-                    <span className="font-inter font-bold text-sm text-accent-yellow">{item.year}</span>
-                  </div>
-
-                  {/* Spacer for opposite side */}
-                  <div className="hidden md:block w-[50%]" />
                 </div>
               ))}
             </div>
