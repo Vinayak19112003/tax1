@@ -9,81 +9,87 @@ import Badge from '../components/ui/Badge';
 export default function Home() {
   return (
     <div className="w-full bg-neutral-50 overflow-x-hidden">
-      <div className="w-[1440px] mx-auto">
+      <div className="w-full max-w-[1440px] mx-auto">
         {/* Hero Section */}
-        <section className="relative h-[990px] bg-gradient-to-r from-[#141F38] to-[#2D3853] -mt-[8px]">
-          <div className="absolute left-[113px] top-[281px] z-10">
-            <div className="w-[260px] h-[40px] bg-[rgba(245,159,10,0.2)] rounded-[30px] flex items-center justify-center">
-              <span className="font-inter font-medium text-[14px] leading-[20px] text-accent-yellow">
-                Trusted Tax & Business Consultants
-              </span>
+        {/* Hero Section */}
+        <section className="relative min-h-[600px] lg:h-[900px] bg-gradient-to-r from-[#141F38] to-[#2D3853] flex items-center pt-20 lg:pt-0">
+          <div className="container mx-auto px-4 lg:px-[113px] z-10 flex flex-col justify-center h-full">
+
+            <div className="w-fit mb-6 lg:mb-8">
+              <div className="px-4 py-2 bg-[rgba(245,159,10,0.2)] rounded-[30px] flex items-center justify-center">
+                <span className="font-inter font-medium text-sm text-accent-yellow">
+                  Trusted Tax & Business Consultants
+                </span>
+              </div>
+            </div>
+
+            <h1 className="font-inter font-bold text-3xl md:text-5xl lg:text-[60px] leading-tight lg:leading-[73px] text-white max-w-[818px] mb-6">
+              Your Partner for <span className="text-accent-yellow">Financial Success</span> & Business Growth
+            </h1>
+
+            <p className="font-inter font-normal text-base md:text-lg lg:text-[20px] leading-relaxed text-[rgba(248,250,252,0.7)] max-w-[782px] mb-8 lg:mb-12">
+              Comprehensive tax, accounting, and business registration services tailored for startups, SMEs, and enterprises. Let our experts handle your compliance while you focus on growth.
+            </p>
+
+            <div className="flex flex-col md:flex-row flex-wrap gap-4 mb-8 lg:mb-12">
+              <div className="flex items-center gap-2">
+                <div className="w-5 h-5 rounded-full border-[1.67px] border-accent-yellow flex items-center justify-center">
+                  <Check size={12} className="text-accent-yellow" strokeWidth={2.5} />
+                </div>
+                <span className="font-inter font-medium text-sm text-white">
+                  Expert CA & Tax Consultants
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-5 h-5 rounded-full border-[1.67px] border-accent-yellow flex items-center justify-center">
+                  <Check size={12} className="text-accent-yellow" strokeWidth={2.5} />
+                </div>
+                <span className="font-inter font-medium text-sm text-white">
+                  15+ Years of Experience
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-5 h-5 rounded-full border-[1.67px] border-accent-yellow flex items-center justify-center">
+                  <Check size={12} className="text-accent-yellow" strokeWidth={2.5} />
+                </div>
+                <span className="font-inter font-medium text-sm text-white">
+                  5000+ Happy Clients
+                </span>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button className="w-full sm:w-[294px] h-[56px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-[15px] flex items-center justify-center gap-2">
+                <span className="font-inter font-semibold text-lg text-black">
+                  Get Free Consultation
+                </span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </button>
+
+              <button className="w-full sm:w-[224px] h-[56px] border-2 border-[rgba(248,250,252,0.3)] rounded-xl flex items-center justify-center">
+                <span className="font-['DM_Sans'] font-medium text-lg text-neutral-100">
+                  Explore Services
+                </span>
+              </button>
             </div>
           </div>
 
-          <h1 className="absolute left-[113px] top-[349px] w-[818px] font-inter font-bold text-[60px] leading-[73px] text-white z-10">
-            Your Partner for <span className="text-accent-yellow">Financial Success</span> & Business Growth
-          </h1>
-
-          <p className="absolute left-[113px] top-[509px] w-[782px] font-inter font-normal text-[20px] leading-[24px] text-[rgba(248,250,252,0.7)] z-10">
-            Comprehensive tax, accounting, and business registration services tailored for startups, SMEs, and enterprises. Let our experts handle your compliance while you focus on growth.
-          </p>
-
-          <div className="absolute left-[113px] top-[615px] flex items-center gap-[16px] z-10">
-            <div className="flex items-center gap-[8px]">
-              <div className="w-[20px] h-[20px] rounded-full border-[1.67px] border-accent-yellow flex items-center justify-center">
-                <Check size={12} className="text-accent-yellow" strokeWidth={2.5} />
-              </div>
-              <span className="font-inter font-medium text-[14px] leading-[20px] text-white">
-                Expert CA & Tax Consultants
-              </span>
-            </div>
-            <div className="flex items-center gap-[8px]">
-              <div className="w-[20px] h-[20px] rounded-full border-[1.67px] border-accent-yellow flex items-center justify-center">
-                <Check size={12} className="text-accent-yellow" strokeWidth={2.5} />
-              </div>
-              <span className="font-inter font-medium text-[14px] leading-[20px] text-white">
-                15+ Years of Experience
-              </span>
-            </div>
-            <div className="flex items-center gap-[8px]">
-              <div className="w-[20px] h-[20px] rounded-full border-[1.67px] border-accent-yellow flex items-center justify-center">
-                <Check size={12} className="text-accent-yellow" strokeWidth={2.5} />
-              </div>
-              <span className="font-inter font-medium text-[14px] leading-[20px] text-white">
-                5000+ Happy Clients
-              </span>
-            </div>
-          </div>
-
-          <button className="absolute left-[113px] top-[675px] w-[294px] h-[56px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-[15px] flex items-center justify-center gap-[8px] z-10">
-            <span className="font-inter font-semibold text-[18px] leading-[28px] text-black">
-              Get Free Consultation
-            </span>
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </button>
-
-          <button className="absolute left-[455px] top-[675px] w-[223.67px] h-[56px] border-2 border-[rgba(248,250,252,0.3)] rounded-xl flex items-center justify-center z-10">
-            <span className="font-['DM_Sans'] font-medium text-[18px] leading-[28px] text-neutral-100">
-              Explore Services
-            </span>
-          </button>
-
-          <div className="absolute bottom-0 left-0 right-[-480px] h-[160px] z-0">
+          <div className="absolute bottom-0 left-0 right-0 h-[80px] lg:h-[160px] z-0 pointer-events-none">
             <WaveDivider />
           </div>
         </section>
 
         {/* Services Section */}
-        <section className="pt-[112px] pb-[68px]">
+        <section className="pt-[60px] lg:pt-[112px] pb-[68px] px-4">
           <div className="flex flex-col items-center">
             <Badge>Our Services</Badge>
-            <h2 className="w-[581px] font-inter font-bold text-[36px] leading-[44px] text-center text-neutral-900 mt-[16px]">
+            <h2 className="w-full max-w-[581px] font-inter font-bold text-3xl lg:text-[36px] leading-[1.2] lg:leading-[44px] text-center text-neutral-900 mt-[16px]">
               Comprehensive Business Solutions
             </h2>
-            <p className="w-[659px] font-inter font-normal text-[16px] leading-[19px] text-center text-neutral-500 mt-[16px]">
+            <p className="w-full max-w-[659px] font-inter font-normal text-base lg:text-[16px] leading-[19px] text-center text-neutral-500 mt-[16px]">
               From tax filing to business registration, we provide end-to-end services to help your business thrive.
             </p>
           </div>
@@ -135,18 +141,18 @@ export default function Home() {
         </section>
 
         {/* Why Choose Us Section */}
-        <section className="py-[68px]">
+        <section className="py-[68px] px-4">
           <div className="flex flex-col items-center">
             <Badge>Why Choose Us</Badge>
-            <h2 className="w-[610px] font-inter font-bold text-[36px] leading-[44px] text-center text-black mt-[16px]">
+            <h2 className="w-full max-w-[610px] font-inter font-bold text-3xl lg:text-[36px] leading-[1.2] lg:leading-[44px] text-center text-black mt-[16px]">
               Your Trusted Partner For Business Success
             </h2>
-            <p className="w-[597px] font-inter font-normal text-[16px] leading-[19px] text-center text-neutral-500 mt-[20px]">
+            <p className="w-full max-w-[597px] font-inter font-normal text-base lg:text-[16px] leading-[19px] text-center text-neutral-500 mt-[20px]">
               With over 15 years of experience in tax consulting and business advisory, we have helped thousands of businesses navigate complex regulatory requirements while focusing on their growth.
             </p>
           </div>
 
-          <div className="flex justify-center gap-[24px] mt-[64px]">
+          <div className="flex flex-wrap justify-center gap-[24px] mt-[64px] px-4">
             <StatCard value="15+" label="Years Experience" />
             <StatCard value="5000+" label="Happy Clients" />
             <StatCard value="100%" label="Satisfaction" />
@@ -187,18 +193,18 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full h-[496px] bg-gradient-to-r from-[#141F38] to-[#2D3853] -mx-[calc((100vw-1440px)/2)] flex items-center justify-center">
-          <div className="text-center">
-            <h2 className="w-[775px] font-inter font-bold text-[48px] leading-[58px] text-neutral-100 mx-auto">
+        <section className="w-full bg-gradient-to-r from-[#141F38] to-[#2D3853] py-16 px-4">
+          <div className="container mx-auto max-w-[1440px] text-center">
+            <h2 className="w-full max-w-[775px] mx-auto font-inter font-bold text-3xl lg:text-[48px] leading-[1.2] lg:leading-[58px] text-neutral-100">
               Ready to Simplify Your <span className="text-accent-yellow">Business</span>
-              <br />
-              <span className="text-accent-yellow">Compliance?</span>
+              <br className="hidden md:block" />
+              <span className="text-accent-yellow"> Compliance?</span>
             </h2>
-            <p className="w-[763px] font-inter font-normal text-[18px] leading-[22px] text-[rgba(248,250,252,0.7)] mx-auto mt-[40px]">
+            <p className="w-full max-w-[763px] mx-auto font-inter font-normal text-base lg:text-[18px] leading-[22px] text-[rgba(248,250,252,0.7)] mt-[24px] lg:mt-[40px]">
               Get a free consultation with our expert team. We'll analyze your requirements and provide tailored solutions for your business.
             </p>
-            <div className="flex gap-[30px] justify-center mt-[44px]">
-              <button className="w-[342.98px] h-[56px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] shadow-[0px_4px_14px_rgba(245,159,10,0.3)] rounded-xl flex items-center justify-center gap-[8px]">
+            <div className="flex flex-col md:flex-row gap-4 lg:gap-[30px] justify-center mt-[32px] lg:mt-[44px]">
+              <button className="w-full md:w-auto px-8 h-[56px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] shadow-[0px_4px_14px_rgba(245,159,10,0.3)] rounded-xl flex items-center justify-center gap-[8px]">
                 <span className="font-['DM_Sans'] font-semibold text-[18px] leading-[28px] text-neutral-900">
                   Schedule Free Consultation
                 </span>
@@ -207,7 +213,7 @@ export default function Home() {
                   <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
-              <button className="w-[283.98px] h-[56px] border-2 border-[rgba(248,250,252,0.3)] rounded-xl flex items-center justify-center gap-[12px]">
+              <button className="w-full md:w-auto px-8 h-[56px] border-2 border-[rgba(248,250,252,0.3)] rounded-xl flex items-center justify-center gap-[12px]">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M14.6667 11.28V13.28C14.6674 13.4657 14.6294 13.6494 14.555 13.8195C14.4807 13.9897 14.3716 14.1424 14.2347 14.2679C14.0979 14.3934 13.9364 14.489 13.7605 14.5485C13.5847 14.608 13.3983 14.63 13.2134 14.6133C11.1619 14.3904 9.19137 13.6894 7.46004 12.5667C5.84926 11.5431 4.48359 10.1774 3.46004 8.56666C2.33336 6.82745 1.6322 4.84731 1.41337 2.78666C1.39671 2.60229 1.41862 2.41649 1.4777 2.24107C1.53679 2.06564 1.63175 1.90444 1.75655 1.76773C1.88134 1.63102 2.03324 1.52179 2.20256 1.44698C2.37189 1.37216 2.55493 1.33349 2.74004 1.33333H4.74004C5.06357 1.33013 5.37723 1.4447 5.62254 1.65568C5.86786 1.86665 6.02809 2.15961 6.07337 2.48C6.15779 3.12003 6.31434 3.74847 6.54004 4.35333C6.62973 4.59193 6.64915 4.85127 6.59597 5.10058C6.5428 5.34989 6.41928 5.57873 6.24004 5.76L5.39337 6.60666C6.34241 8.27568 7.72436 9.65763 9.39337 10.6067L10.24 9.76C10.4213 9.58076 10.6501 9.45724 10.8994 9.40406C11.1488 9.35089 11.4081 9.37031 11.6467 9.46C12.2516 9.6857 12.88 9.84225 13.52 9.92666C13.8439 9.97234 14.1396 10.1355 14.3511 10.385C14.5625 10.6345 14.6748 10.9533 14.6667 11.28Z" stroke="#F8FAFC" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>

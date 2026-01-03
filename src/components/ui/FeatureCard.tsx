@@ -8,7 +8,7 @@ interface FeatureCardProps {
 
 export default function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
-    <div className="w-[276px] h-[190px] bg-white border border-neutral-400 rounded-xl p-[16px]">
+    <div className="w-full bg-white border border-neutral-400 rounded-xl p-[16px] h-full min-h-[190px]">
       <div className="w-[48px] h-[48px] bg-[rgba(245,159,10,0.1)] rounded-xl flex items-center justify-center mb-[16px]">
         {icon}
       </div>

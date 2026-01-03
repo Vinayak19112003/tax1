@@ -9,7 +9,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ icon, title, description }: ServiceCardProps) {
   return (
-    <div className="w-[391px] h-[270px] bg-white border border-neutral-400 rounded-2xl p-[20px] relative">
+    <div className="w-full bg-white border border-neutral-400 rounded-2xl p-[20px] relative h-full min-h-[270px]">
       <div className="w-[56px] h-[56px] bg-[rgba(245,159,10,0.1)] rounded-xl flex items-center justify-center">
         {icon}
       </div>
