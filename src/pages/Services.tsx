@@ -100,7 +100,7 @@ export default function Services() {
   return (
     <div className="w-full bg-white overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853] pt-28 pb-32 px-4 flex flex-col items-center justify-center text-center">
+      <section className="relative min-h-[450px] bg-hero-gradient pt-28 pb-32 px-4 flex flex-col items-center justify-center text-center">
         <div className="relative z-10 flex flex-col items-center">
           <Badge>Our Services</Badge>
 
@@ -137,7 +137,7 @@ export default function Services() {
               <p className="font-inter font-normal text-base text-neutral-500 mb-6 max-w-[500px] mx-auto lg:mx-0">
                 {service.description}
               </p>
-              <button className="w-full sm:w-auto px-6 h-[40px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-xl flex items-center justify-center gap-2 mx-auto lg:mx-0">
+              <button className="w-full sm:w-auto px-6 h-[40px] bg-button-gradient rounded-xl flex items-center justify-center gap-2 mx-auto lg:mx-0">
                 <span className="font-inter font-semibold text-sm text-neutral-900">
                   Get Started
                 </span>
@@ -149,7 +149,7 @@ export default function Services() {
             </div>
 
             {/* Content Card */}
-            <div className="w-full lg:w-[644px] bg-white border border-neutral-200 shadow-sm rounded-2xl p-6 lg:p-[30px]">
+            <div className="w-full lg:w-[644px] bg-white border border-neutral-400 shadow-[0px_2px_2px_-2px_rgba(15,23,41,0.1),0px_4px_6px_-1px_rgba(15,23,41,0.1)] rounded-2xl p-6 lg:p-[30px]">
               <h3 className="font-inter font-semibold text-lg text-neutral-900 mb-6">
                 What's Included
               </h3>
@@ -175,7 +175,7 @@ export default function Services() {
           <p className="font-inter font-normal text-base text-neutral-500 max-w-[840px] mx-auto">
             Every business is unique. Contact us to discuss your specific requirements and get a tailored solution.
           </p>
-          <button className="w-full sm:w-auto px-8 h-[48px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-xl inline-flex items-center justify-center gap-2">
+          <button className="w-full sm:w-auto px-8 h-[48px] bg-button-gradient rounded-xl inline-flex items-center justify-center gap-2">
             <span className="font-inter font-semibold text-base text-neutral-900">
               Schedule a Consultation
             </span>

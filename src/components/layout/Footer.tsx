@@ -3,7 +3,7 @@ import { Facebook, Twitter, Linkedin, Instagram, MapPin, Phone, Mail, Clock } fr
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-gradient-to-r from-[#141F38] to-[#2D3853] text-white py-12 lg:py-16">
+    <footer className="w-full bg-hero-gradient text-white py-12 lg:py-16">
       <div className="container mx-auto px-4 lg:px-[113px]">
         <div className="flex flex-col lg:flex-row flex-wrap justify-between gap-10 lg:gap-0">
 

@@ -21,8 +21,8 @@ export default function Button({
   const baseStyles = 'flex items-center justify-center gap-2 font-inter font-semibold rounded-xl transition-all';
 
   const variantStyles = {
-    primary: 'bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] text-black hover:shadow-lg',
-    secondary: 'bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] text-[#0F1729] hover:shadow-[0px_4px_14px_rgba(245,159,10,0.3)]',
+    primary: 'bg-button-gradient text-black hover:shadow-lg',
+    secondary: 'bg-button-gradient text-[#0F1729] hover:shadow-[0px_4px_14px_rgba(245,159,10,0.3)]',
     outline: 'border-2 border-[rgba(248,250,252,0.3)] text-neutral-100 hover:bg-[rgba(248,250,252,0.1)]',
   };
 

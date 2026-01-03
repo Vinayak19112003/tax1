@@ -33,8 +33,8 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${isScrolled || isMobileMenuOpen
-          ? 'bg-white shadow-md'
-          : 'bg-transparent'
+        ? 'bg-white shadow-md'
+        : 'bg-transparent'
         }`}
     >
       <div className="container mx-auto px-4 md:px-6 lg:px-[113px] h-[80px] flex items-center justify-between">
@@ -58,8 +58,8 @@ export default function Header() {
               key={link.path}
               to={link.path}
               className={`flex items-center justify-center h-[40px] px-[20px] rounded-xl transition-colors ${isActive(link.path)
-                  ? (isScrolled ? 'bg-[#F3F5F7]' : 'bg-[rgba(248,250,252,0.1)]')
-                  : 'hover:bg-black/5'
+                ? (isScrolled ? 'bg-[#F3F5F7]' : 'bg-[rgba(248,250,252,0.1)]')
+                : 'hover:bg-black/5'
                 }`}
             >
               <span className={`font-inter font-normal text-[16px] leading-[24px] ${isScrolled ? 'text-black' : 'text-white'}`}>
@@ -70,7 +70,7 @@ export default function Header() {
         </nav>
 
         {/* Desktop CTA */}
-        <button className="hidden lg:flex w-[168px] h-[40px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-[15px] items-center justify-center">
+        <button className="hidden lg:flex w-[168px] h-[40px] bg-button-gradient rounded-[15px] items-center justify-center">
           <span className="font-inter font-semibold text-[14px] leading-[20px] text-black">
             Get Free Consultation
           </span>
@@ -93,7 +93,7 @@ export default function Header() {
                 </Link>
               ))}
             </nav>
-            <button className="w-full h-[48px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-xl flex items-center justify-center mt-2">
+            <button className="w-full h-[48px] bg-button-gradient rounded-xl flex items-center justify-center mt-2">
               <span className="font-inter font-semibold text-[16px] text-black">
                 Get Free Consultation
               </span>

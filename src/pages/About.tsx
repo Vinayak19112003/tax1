@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="w-full bg-white overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853] pt-28 pb-32 px-4 flex flex-col items-center justify-center text-center">
+      <section className="relative min-h-[450px] bg-hero-gradient pt-28 pb-32 px-4 flex flex-col items-center justify-center text-center">
         <div className="relative z-10 flex flex-col items-center">
           <Badge>About Us</Badge>
 

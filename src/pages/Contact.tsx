@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="w-full bg-white overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853] pt-28 pb-32 px-4 flex flex-col items-center justify-center text-center">
+      <section className="relative min-h-[450px] bg-hero-gradient pt-28 pb-32 px-4 flex flex-col items-center justify-center text-center">
         <div className="relative z-10 flex flex-col items-center">
           <Badge>Contact Us</Badge>
 
@@ -161,7 +161,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full h-12 bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-xl flex items-center justify-center gap-2 hover:shadow-lg transition-shadow"
+                  className="w-full h-12 bg-button-gradient rounded-xl flex items-center justify-center gap-2 hover:shadow-lg transition-shadow"
                 >
                   <span className="font-inter font-semibold text-base text-neutral-900">
                     Send Message

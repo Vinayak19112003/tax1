@@ -12,7 +12,7 @@ export default function Home() {
       <div className="w-full max-w-[1440px] mx-auto">
         {/* Hero Section */}
         {/* Hero Section */}
-        <section className="relative min-h-[600px] lg:h-[900px] bg-gradient-to-r from-[#141F38] to-[#2D3853] flex items-center pt-20 lg:pt-0">
+        <section className="relative min-h-[600px] lg:h-[900px] bg-hero-gradient flex items-center pt-20 lg:pt-0">
           <div className="container mx-auto px-4 lg:px-[113px] z-10 flex flex-col justify-center h-full">
 
             <div className="w-fit mb-6 lg:mb-8">
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="w-full sm:w-[294px] h-[56px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-[15px] flex items-center justify-center gap-2">
+              <button className="w-full sm:w-[294px] h-[56px] bg-button-gradient rounded-[15px] flex items-center justify-center gap-2">
                 <span className="font-inter font-semibold text-lg text-black">
                   Get Free Consultation
                 </span>
@@ -128,7 +128,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-[48px]">
-            <button className="w-[218px] h-[48px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] rounded-xl flex items-center justify-center gap-[9px]">
+            <button className="w-[218px] h-[48px] bg-button-gradient rounded-xl flex items-center justify-center gap-[9px]">
               <span className="font-inter font-semibold text-[16px] leading-[24px] text-black">
                 View All Services
               </span>
@@ -193,7 +193,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full bg-gradient-to-r from-[#141F38] to-[#2D3853] py-16 px-4">
+        <section className="w-full bg-hero-gradient py-16 px-4">
           <div className="container mx-auto max-w-[1440px] text-center">
             <h2 className="w-full max-w-[775px] mx-auto font-inter font-bold text-3xl lg:text-[48px] leading-[1.2] lg:leading-[58px] text-neutral-100">
               Ready to Simplify Your <span className="text-accent-yellow">Business</span>
@@ -204,7 +204,7 @@ export default function Home() {
               Get a free consultation with our expert team. We'll analyze your requirements and provide tailored solutions for your business.
             </p>
             <div className="flex flex-col md:flex-row gap-4 lg:gap-[30px] justify-center mt-[32px] lg:mt-[44px]">
-              <button className="w-full md:w-auto px-8 h-[56px] bg-gradient-to-r from-[#F59F0A] to-[#FBC02D] shadow-[0px_4px_14px_rgba(245,159,10,0.3)] rounded-xl flex items-center justify-center gap-[8px]">
+              <button className="w-full md:w-auto px-8 h-[56px] bg-button-gradient shadow-[0px_4px_14px_rgba(245,159,10,0.3)] rounded-xl flex items-center justify-center gap-[8px]">
                 <span className="font-['DM_Sans'] font-semibold text-[18px] leading-[28px] text-neutral-900">
                   Schedule Free Consultation
                 </span>
