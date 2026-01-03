@@ -11,7 +11,6 @@ export default function Home() {
     <div className="w-full bg-neutral-50 overflow-x-hidden">
       <div className="w-full max-w-[1440px] mx-auto">
         {/* Hero Section */}
-        {/* Hero Section */}
         <section className="relative min-h-[600px] lg:h-[900px] bg-hero-gradient flex items-center pt-20 lg:pt-0">
           <div className="container mx-auto px-4 lg:px-[113px] z-10 flex flex-col justify-center h-full">
 
