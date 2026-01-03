@@ -145,7 +145,7 @@ export default function About() {
 
           <div className="relative max-w-[800px] mx-auto">
             {/* Vertical Line */}
-            <div className="absolute left-[32px] top-0 bottom-0 w-[2px] bg-neutral-200" />
+            <div className="absolute left-8 top-8 bottom-8 w-[2px] bg-neutral-300 -translate-x-1/2" />
 
             <div className="space-y-12">
               {[
