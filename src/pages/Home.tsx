@@ -4,7 +4,7 @@ import ServiceCard from '../components/ui/ServiceCard';
 import StatCard from '../components/ui/StatCard';
 import FeatureCard from '../components/ui/FeatureCard';
 import Badge from '../components/ui/Badge';
-import Button from '../components/ui/Button';
+
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
 
           <h1 className="absolute left-[113px] top-[349px] w-[818px] font-inter font-bold text-[60px] leading-[73px] text-white z-10">
-            Your Partner for Financial Success & Business Growth
+            Your Partner for <span className="text-accent-yellow">Financial Success</span> & Business Growth
           </h1>
 
           <p className="absolute left-[113px] top-[509px] w-[782px] font-inter font-normal text-[20px] leading-[24px] text-[rgba(248,250,252,0.7)] z-10">
@@ -60,8 +60,8 @@ export default function Home() {
               Get Free Consultation
             </span>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </button>
 
@@ -127,8 +127,8 @@ export default function Home() {
                 View All Services
               </span>
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
           </div>
@@ -190,9 +190,9 @@ export default function Home() {
         <section className="w-full h-[496px] bg-gradient-to-r from-[#141F38] to-[#2D3853] -mx-[calc((100vw-1440px)/2)] flex items-center justify-center">
           <div className="text-center">
             <h2 className="w-[775px] font-inter font-bold text-[48px] leading-[58px] text-neutral-100 mx-auto">
-              Ready to Simplify Your Business
+              Ready to Simplify Your <span className="text-accent-yellow">Business</span>
               <br />
-              Compliance?
+              <span className="text-accent-yellow">Compliance?</span>
             </h2>
             <p className="w-[763px] font-inter font-normal text-[18px] leading-[22px] text-[rgba(248,250,252,0.7)] mx-auto mt-[40px]">
               Get a free consultation with our expert team. We'll analyze your requirements and provide tailored solutions for your business.
@@ -203,13 +203,13 @@ export default function Home() {
                   Schedule Free Consultation
                 </span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
               <button className="w-[283.98px] h-[56px] border-2 border-[rgba(248,250,252,0.3)] rounded-xl flex items-center justify-center gap-[12px]">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M14.6667 11.28V13.28C14.6674 13.4657 14.6294 13.6494 14.555 13.8195C14.4807 13.9897 14.3716 14.1424 14.2347 14.2679C14.0979 14.3934 13.9364 14.489 13.7605 14.5485C13.5847 14.608 13.3983 14.63 13.2134 14.6133C11.1619 14.3904 9.19137 13.6894 7.46004 12.5667C5.84926 11.5431 4.48359 10.1774 3.46004 8.56666C2.33336 6.82745 1.6322 4.84731 1.41337 2.78666C1.39671 2.60229 1.41862 2.41649 1.4777 2.24107C1.53679 2.06564 1.63175 1.90444 1.75655 1.76773C1.88134 1.63102 2.03324 1.52179 2.20256 1.44698C2.37189 1.37216 2.55493 1.33349 2.74004 1.33333H4.74004C5.06357 1.33013 5.37723 1.4447 5.62254 1.65568C5.86786 1.86665 6.02809 2.15961 6.07337 2.48C6.15779 3.12003 6.31434 3.74847 6.54004 4.35333C6.62973 4.59193 6.64915 4.85127 6.59597 5.10058C6.5428 5.34989 6.41928 5.57873 6.24004 5.76L5.39337 6.60666C6.34241 8.27568 7.72436 9.65763 9.39337 10.6067L10.24 9.76C10.4213 9.58076 10.6501 9.45724 10.8994 9.40406C11.1488 9.35089 11.4081 9.37031 11.6467 9.46C12.2516 9.6857 12.88 9.84225 13.52 9.92666C13.8439 9.97234 14.1396 10.1355 14.3511 10.385C14.5625 10.6345 14.6748 10.9533 14.6667 11.28Z" stroke="#F8FAFC" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M14.6667 11.28V13.28C14.6674 13.4657 14.6294 13.6494 14.555 13.8195C14.4807 13.9897 14.3716 14.1424 14.2347 14.2679C14.0979 14.3934 13.9364 14.489 13.7605 14.5485C13.5847 14.608 13.3983 14.63 13.2134 14.6133C11.1619 14.3904 9.19137 13.6894 7.46004 12.5667C5.84926 11.5431 4.48359 10.1774 3.46004 8.56666C2.33336 6.82745 1.6322 4.84731 1.41337 2.78666C1.39671 2.60229 1.41862 2.41649 1.4777 2.24107C1.53679 2.06564 1.63175 1.90444 1.75655 1.76773C1.88134 1.63102 2.03324 1.52179 2.20256 1.44698C2.37189 1.37216 2.55493 1.33349 2.74004 1.33333H4.74004C5.06357 1.33013 5.37723 1.4447 5.62254 1.65568C5.86786 1.86665 6.02809 2.15961 6.07337 2.48C6.15779 3.12003 6.31434 3.74847 6.54004 4.35333C6.62973 4.59193 6.64915 4.85127 6.59597 5.10058C6.5428 5.34989 6.41928 5.57873 6.24004 5.76L5.39337 6.60666C6.34241 8.27568 7.72436 9.65763 9.39337 10.6067L10.24 9.76C10.4213 9.58076 10.6501 9.45724 10.8994 9.40406C11.1488 9.35089 11.4081 9.37031 11.6467 9.46C12.2516 9.6857 12.88 9.84225 13.52 9.92666C13.8439 9.97234 14.1396 10.1355 14.3511 10.385C14.5625 10.6345 14.6748 10.9533 14.6667 11.28Z" stroke="#F8FAFC" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 <span className="font-['DM_Sans'] font-medium text-[18px] leading-[28px] text-neutral-100">
                   Call +91 98765 43210

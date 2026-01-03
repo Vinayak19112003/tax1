@@ -7,7 +7,7 @@ export default function Contact() {
     <div className="w-full bg-white overflow-x-hidden">
       <div className="w-[1440px] mx-auto">
         {/* Hero Section */}
-        <section className="relative h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853] mt-[48px]">
+        <section className="relative h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853]">
           <div className="absolute left-1/2 -translate-x-1/2 top-[77px] z-10">
             <Badge>Contact Us</Badge>
           </div>
@@ -190,8 +190,8 @@ export default function Contact() {
                       Send Message
                     </span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <circle cx="8" cy="8" r="7" stroke="#0F1729" strokeWidth="1.33"/>
-                      <path d="M5.33337 10.6667L10.6667 5.33337M10.6667 5.33337H5.33337M10.6667 5.33337V10.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                      <circle cx="8" cy="8" r="7" stroke="#0F1729" strokeWidth="1.33" />
+                      <path d="M5.33337 10.6667L10.6667 5.33337M10.6667 5.33337H5.33337M10.6667 5.33337V10.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </button>
                 </form>

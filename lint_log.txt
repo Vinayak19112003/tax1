@@ -1,0 +1,13 @@
+﻿
+> vite-react-typescript-starter@0.0.0 lint
+> eslint .
+
+
+C:\Users\Administrator\.gemini\antigravity\scratch\tax1\src\pages\About.tsx
+  4:8  error  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Administrator\.gemini\antigravity\scratch\tax1\src\pages\Home.tsx
+  7:8  error  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 2 problems (2 errors, 0 warnings)
+

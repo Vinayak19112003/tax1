@@ -1,14 +1,14 @@
 import { Users, HeartHandshake, Target, Shield } from 'lucide-react';
 import WaveDivider from '../components/sections/WaveDivider';
 import Badge from '../components/ui/Badge';
-import Button from '../components/ui/Button';
+
 
 export default function About() {
   return (
     <div className="w-full bg-white overflow-x-hidden">
       <div className="w-[1440px] mx-auto">
         {/* Hero Section */}
-        <section className="relative h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853] mt-[34px]">
+        <section className="relative h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853]">
           <div className="absolute left-1/2 -translate-x-1/2 top-[94px] z-10">
             <Badge>About Us</Badge>
           </div>
@@ -226,8 +226,8 @@ export default function About() {
                 Get in Touch
               </span>
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
           </div>

@@ -7,7 +7,7 @@ export default function Services() {
     <div className="w-full bg-white overflow-x-hidden">
       <div className="w-[1440px] mx-auto">
         {/* Hero Section */}
-        <section className="relative h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853] mt-[69px]">
+        <section className="relative h-[450px] bg-gradient-to-r from-[#141F38] to-[#2D3853]">
           <div className="absolute left-1/2 -translate-x-1/2 top-[52px] z-10">
             <Badge>Our Services</Badge>
           </div>
@@ -30,7 +30,7 @@ export default function Services() {
         {/* Services Detail Sections */}
         <section className="pt-[84px] pb-[68px]">
           {/* GST Services */}
-          <div className="relative mb-[94px]">
+          <div className="relative mb-[94px] h-[234px]">
             <div className="absolute left-[113px] top-0">
               <div className="w-[64px] h-[64px] bg-[rgba(245,159,10,0.1)] rounded-2xl flex items-center justify-center mb-[28px]">
                 <FileText size={32} className="text-accent-yellow" strokeWidth={2.67} />
@@ -46,8 +46,8 @@ export default function Services() {
                   Get Started
                 </span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
@@ -77,7 +77,7 @@ export default function Services() {
           </div>
 
           {/* Income Tax Services */}
-          <div className="relative mb-[94px]">
+          <div className="relative mb-[94px] h-[234px]">
             <div className="absolute left-[113px] top-0 w-[644px] h-[234px] bg-white border-[0.8px] border-neutral-400 shadow-[0px_2px_2px_-2px_rgba(15,23,41,0.1),0px_4px_6px_-1px_rgba(15,23,41,0.1)] rounded-2xl p-[30px]">
               <h3 className="font-inter font-semibold text-[18px] leading-[22px] text-neutral-900 mb-[22px]">
                 What's Included
@@ -116,15 +116,15 @@ export default function Services() {
                   Get Started
                 </span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
           </div>
 
           {/* Business Registration */}
-          <div className="relative mb-[94px]">
+          <div className="relative mb-[94px] h-[234px]">
             <div className="absolute left-[113px] top-0">
               <div className="w-[64px] h-[64px] bg-[rgba(245,159,10,0.1)] rounded-2xl flex items-center justify-center mb-[24px]">
                 <Building2 size={32} className="text-accent-yellow" strokeWidth={2.67} />
@@ -140,8 +140,8 @@ export default function Services() {
                   Get Started
                 </span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
@@ -171,7 +171,7 @@ export default function Services() {
           </div>
 
           {/* Licensing & Compliance */}
-          <div className="relative mb-[94px]">
+          <div className="relative mb-[94px] h-[234px]">
             <div className="absolute left-[113px] top-0 w-[644px] h-[234px] bg-white border-[0.8px] border-neutral-400 shadow-[0px_2px_2px_-2px_rgba(15,23,41,0.1),0px_4px_6px_-1px_rgba(15,23,41,0.1)] rounded-2xl p-[30px]">
               <h3 className="font-inter font-semibold text-[18px] leading-[22px] text-neutral-900 mb-[22px]">
                 What's Included
@@ -210,15 +210,15 @@ export default function Services() {
                   Get Started
                 </span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
           </div>
 
           {/* Trademark Services */}
-          <div className="relative mb-[94px]">
+          <div className="relative mb-[94px] h-[234px]">
             <div className="absolute left-[113px] top-0">
               <div className="w-[64px] h-[64px] bg-[rgba(245,159,10,0.1)] rounded-2xl flex items-center justify-center mb-[24px]">
                 <Award size={32} className="text-accent-yellow" strokeWidth={2.67} />
@@ -234,8 +234,8 @@ export default function Services() {
                   Get Started
                 </span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
@@ -265,7 +265,7 @@ export default function Services() {
           </div>
 
           {/* Accounting Services */}
-          <div className="relative mb-[94px]">
+          <div className="relative mb-[94px] h-[234px]">
             <div className="absolute left-[113px] top-0 w-[644px] h-[234px] bg-white border-[0.8px] border-neutral-400 shadow-[0px_2px_2px_-2px_rgba(15,23,41,0.1),0px_4px_6px_-1px_rgba(15,23,41,0.1)] rounded-2xl p-[30px]">
               <h3 className="font-inter font-semibold text-[18px] leading-[22px] text-neutral-900 mb-[22px]">
                 What's Included
@@ -304,15 +304,15 @@ export default function Services() {
                   Get Started
                 </span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
           </div>
 
           {/* Audit Services */}
-          <div className="relative">
+          <div className="relative h-[234px]">
             <div className="absolute left-[113px] top-0">
               <div className="w-[64px] h-[64px] bg-[rgba(245,159,10,0.1)] rounded-2xl flex items-center justify-center mb-[24px]">
                 <FileCheck size={32} className="text-accent-yellow" strokeWidth={2.67} />
@@ -328,8 +328,8 @@ export default function Services() {
                   Get Started
                 </span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
@@ -373,8 +373,8 @@ export default function Services() {
                 Schedule a Consultation
               </span>
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3.33337 8H12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M8 3.33337L12.6667 8.00004L8 12.6667" stroke="#0F1729" strokeWidth="1.33" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
           </div>
