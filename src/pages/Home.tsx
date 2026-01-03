@@ -94,7 +94,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-[68px] flex flex-wrap gap-x-[23px] gap-y-[32px] justify-center">
+          <div className="mt-[68px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[23px] gap-y-[32px] justify-items-center">
             <ServiceCard
               icon={<FileText size={28} className="text-accent-yellow" strokeWidth={2.33} />}
               title="GST Services"
@@ -158,7 +158,7 @@ export default function Home() {
             <StatCard value="100%" label="Satisfaction" />
           </div>
 
-          <div className="mt-[48px] flex flex-wrap gap-[24px] lg:gap-[75px] justify-center">
+          <div className="mt-[48px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] lg:gap-x-[75px] lg:gap-y-[75px] justify-items-center">
             <FeatureCard
               icon={<Award size={24} className="text-accent-yellow" strokeWidth={2.67} />}
               title="Expert Team"
